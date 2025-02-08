@@ -177,7 +177,6 @@ body {
     text-align: center;
     transition: 0.3s ease-in-out;
 }
-
 .destination-card:hover {
     transform: scale(1.05);
 }
@@ -204,10 +203,17 @@ body {
 
 .offer-price {
     color: #ff6600;
+    background-color: lightsalmon;
     font-weight: bold;
     font-size: 1.1rem;
 }
-
+.booknow {
+    background-color: #ff6200;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
 .featured-destination {
     position: relative;
     background: #fef3e3;
@@ -420,7 +426,6 @@ body {
     border-radius: 10px;
     margin-bottom: 40px;
 }
-
 .subscribe-section h2 {
     margin-bottom: 10px;
     font-size: 24px;
@@ -492,7 +497,13 @@ body {
 }
 
 .copyright {
-    text-align: center;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+.terms {
+    text-align: right;
     margin-top: 30px;
     font-size: 14px;
     color: #777;
